@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2EAE2;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    max-width: 600px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-image {
+    width: 50%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 37px;
+}
+
+.perfume-text {
+    width: 92px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: #6C7289;
+    font-family: 'Montserrat';
+    margin-top: 32px;
+}
+
+.title {
+    height: 96px;
+    font-family: 'Fraunces';
+    font-size: 32px;
+    line-height: 32px;
+    color: #1C232B;
+    margin-top: 20px;
+    margin-right: 32px;
+}
+
+.text-description {
+    height: 92px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+    margin-top: 24px;
+    margin-right: 31.5px;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-price {
+    margin-top: 29px;
+    font-family: 'Fraunces';
+    font-size: 32px;
+    color: #3D8168;
+}
+
+.old-price {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    text-decoration-line: line-through;
+    color: #6C7289;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+    margin-right: 74px;
+}
+
+.cart-container {
+    height: 48px;
+    width: 236px;
+    border-radius: 8px;
+    background: #3D8168;
+    margin: 30px 32px 32px 0px;
+    overflow: hidden;
+    display: flex;
+}
+
+.cart-container:hover {
+    background: #1A4032;
+    cursor: pointer;
+}
+
+.icon-cart {
+    width: 15px;
+    height: 16px;
+    margin: 16px 11.61px 16px 63px;
+}
+
+.cart-text {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
